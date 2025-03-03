@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "zsoltarrgyelan.fitnessapp"
+    namespace = "zsoltargyelan.fitnessapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "zsoltarrgyelan.fitnessapp"
+        applicationId = "zsoltargyelan.fitnessapp"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -56,4 +56,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.androidx.core.splashscreen)
+    implementation(libs.androidx.navigation.compose)
 }
